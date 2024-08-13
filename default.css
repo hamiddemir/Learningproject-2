@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-center{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+h1{
+    color: cornsilk;
+}
+ul li{
+    list-style-type:none;
+}
+a{
+    color:cornsilk;
+}
+a:hover{
+    cursor: pointer;
+    color:darkgoldenrod;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}

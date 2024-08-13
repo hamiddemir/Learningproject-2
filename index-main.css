@@ -1,0 +1,110 @@
+.main-container{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-header{
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    border: 0.5px solid darkgrey;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .main-header h1{
+    color: black;
+    font-weight: bold;
+    font-size: 2.5rem;
+    /* letter-spacing: 1px; */
+    
+  }
+  .main-header h3{
+    font-style: oblique;
+    letter-spacing: 2px;
+  }
+  .main-header .header-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .header-input #email{
+    width: 19rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1rem;
+  }
+  .header-input .sub{
+    background-color:darkslategrey;
+    color: #fff;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin-left: 0.25rem;
+  }
+  .header-input .sub:hover{
+    background-color:darkseagreen;
+    color: cornsilk;
+    cursor: pointer;
+  }
+  .main-blog{
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+  }
+  .blogs{
+    display: flex;
+    flex-direction: column;
+  }
+  .blog{
+    border-bottom: 0.5px solid black;
+  }
+  .blogs .blog{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0.5rem;
+    /* gap: 10px; */
+  }
+  .blogs .blog .blog-img{
+    margin-top: 1rem;
+    width: 13rem;
+    margin: 0 2rem 0 0.75rem;
+  }
+  .blog-container{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .blogs .blog .details{
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 1px;
+    opacity: 2p;
+  }
+  .blogs .blog .details{
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    gap:1rem;
+  }
+  .blogs .blog .description{
+   display: flex;
+   flex-direction: column;
+    height: auto;
+  
+  }
+  .blogs .blog .read a{
+    display: inline;
+    font-size: 1rem;
+    color: #333;
+  }
